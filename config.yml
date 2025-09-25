@@ -1,0 +1,25 @@
+baseURL: "https://wizoomm.github.io/"
+languageCode: "ru-ru"
+title: "Портфолио wizoomm"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 5
+
+menu:
+  main:
+    - name: Главная
+      url: /
+      weight: 1
+    - name: О себе
+      url: /about/
+      weight: 2
+
+params:
+  author: "wizoomm"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  disableSpecial1stPost: true
+
