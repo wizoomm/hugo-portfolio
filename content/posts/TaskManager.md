@@ -2,6 +2,7 @@
 title: "Разработка SPA-приложения «Менеджер задач» на Vue 3 с сервером на Python Flask"
 date: 2026-01-02
 draft: false
+categories: ["projects"]
 ---
 Ссылка на мой [github](https://github.com/wizoomm/TaskManager)
 
@@ -371,7 +372,7 @@ export default {
 
 2. Скачать проект из репозитория:
 ```bash
-git clone [URL репозитория]
+git clone https://github.com/wizoomm/TaskManager.git
 cd TaskManager
 ```
 

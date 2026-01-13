@@ -14,6 +14,9 @@ menu:
     - name: О себе
       url: /about/
       weight: 2
+    - name: Мои проекты
+      url: /projects/
+      weight: 3
 
 params:
   author: "wizoomm"
@@ -22,4 +25,25 @@ params:
   ShowShareButtons: false
   ShowPostNavLinks: true
   disableSpecial1stPost: true
+  
+  profileMode:
+    enabled: true
+    title: "Frontend Developer & Designer"
+    subtitle: "Кручинина Дарья"
+    imageUrl: "/images/home.png"
+    imageTitle: "Кручинина Дарья"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Мои проекты
+        url: "/projects/"
+
+  
+  socialIcons:
+    - name: github
+      url: "https://github.com/wizoomm"
+    - name: telegram
+      url: "https://t.me/wizoomm"
+    - name: email
+      url: "mailto:wizoomm0@gmail.com"
 
