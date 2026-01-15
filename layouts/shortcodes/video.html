@@ -1,0 +1,12 @@
+<video controls width="100%" style="max-width: 800px; margin: 20px auto; display: block;">
+  {{- if .Get "mp4" }}
+  <source src="{{ .Get "mp4" }}" type="video/mp4">
+  {{- end }}
+  {{- if .Get "mov" }}
+  <source src="{{ .Get "mov" }}" type="video/quicktime">
+  {{- end }}
+  {{- if .Get "webm" }}
+  <source src="{{ .Get "webm" }}" type="video/webm">
+  {{- end }}
+  Ваш браузер не поддерживает воспроизведение видео.
+</video>
